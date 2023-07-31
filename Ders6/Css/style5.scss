@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.header{
+max-width: 100%;
+height: 300px;
+&__nav{
+max-width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 10em 2em 10em;
+    &_list{
+        display: flex;
+        column-gap: 25px;
+        &_item{
+       
+            &_link{
+                font-size: 0.8rem;
+                opacity: 0.7;
+                   color: black;
+
+            }
+            &_enter{
+                color: #23A6F0;
+                background-color: white;
+                padding: 10px 15px;
+                border: none;
+                font-size: 0.7rem;
+                opacity: 0.7;
+            }
+            &_entercolor{
+                border: none;
+                color: white;
+                background-color: #23A6F0;
+                border-radius: 3px;
+                padding: 10px 15px;
+                font-size: 0.7rem;
+                opacity: 0.7;
+
+}
+}
+}
+}
+&__container{
+    max-width: 100%;
+    height: 160px;
+
+    &_start{ 
+          max-width: 100%;
+        height: 160px;
+        text-align: center;
+        &_head5{
+opacity: 0.7;
+margin-bottom: 20px;
+        }
+        &_head1{
+font-size: 2.5rem;
+letter-spacing: 1px;
+margin-bottom: 25px;
+        }
+        &_list{
+            display: flex;
+            column-gap: 10px;
+            justify-content: center;
+            :first-child{
+                font-size: 0.8rem;
+            }
+            :last-child{
+                opacity: 0.7;
+                font-size: 0.8rem;
+                
+            }
+            &_item{
+                
+                &_photo{
+                   height: 12px;
+                }
+            }
+        }
+    }
+}
+
+}
+
+.main{
+
+    max-width: 100%;
+    height: 2150px;
+   &__enter{
+    max-width: 100%;
+    height: 1150px;
+    
+ 
+    &_start{
+        width: 100%;
+        height: 160px;
+        text-align: center;
+        margin-bottom: 4em;
+       
+        &_head{
+
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        &_text{
+
+            font-size: 0.8rem;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+        &_span{
+ font-weight: bold;
+        }
+        &_photo{
+
+            height: 15px;
+          
+        }
+        &_link{
+
+            background-color: #B2E3FF;
+            color: #23A6F0;
+            border-radius: 20px;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+
+        }
+    }
+
+
+
+    &_center{
+        max-width: 100%;
+        height: 650px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        margin-bottom: 7em;
+        
+        &_left{
+
+            width: 350px;
+            height: 600px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border-radius: 10px;
+          border: 1px solid #23A6F0;
+            &_list{
+                display: flex;
+                align-items: center;
+                margin-left: 3em;
+       
+                
+                &_item{
+                    margin-bottom: 15px;
+                   
+
+                    &_paragraf{
+
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: #23A6F0;
+                        margin-right: 10px;
+                        margin-left: 1.5em;
+                        margin-bottom: 40px;
+
+                    }
+                    &_paragraf1{
+                        font-size: 2rem;
+                        font-weight: bold;
+                       color: #23A6F0; 
+                    }
+                    &_paragraf2{
+                        color: #8EC2F2;
+                        margin-bottom: 40px;
+                        
+                    }
+
+                    &_photo{
+
+                        background-color: #2DC071;
+                        border-radius: 50%;
+                        width: 30px;
+                        padding: 7px;
+                        margin-right: 10px;
+                        
+                    }
+                    &_photos{
+                        background-color: #BDBDBD;
+                        border-radius: 50%;
+                        width: 30px;
+                        padding: 7px;
+                        margin-right: 10px;
+                    }
+                    
+                    
+                }
+            }
+            &_button{
+                width: 200px;
+                color: white;
+                border: none;
+                padding: 10px 50px;
+                border-radius: 5px;
+                background-color: #252B42;
+                margin-top: 20px;
+                margin-left: 70px;
+            }
+            &_head{
+
+                margin-bottom: 30px;
+            }
+            &_text{
+                opacity: 0.8;
+
+                margin-bottom: 30px;
+            }
+        }
+
+
+
+
+        &_forward{
+
+            width: 350px;
+            height: 650px;
+          text-align: center;
+          background-color: #252B42;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border-radius: 10px;
+          
+            &_list{
+                display: flex;
+                align-items: center;
+                margin-left: 3em;
+       
+                
+                &_item{
+                    margin-bottom: 15px;
+                   
+
+                    &_paragraf{
+
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: #23A6F0;
+                        margin-right: 10px;
+                        margin-left: 1em;
+                        margin-bottom: 40px;
+
+                    }
+                    &_paragraf1{
+                        font-size: 2rem;
+                        font-weight: bold;
+                       color: #23A6F0; 
+                    }
+                    &_paragraf2{
+                        color: #8EC2F2;
+                        margin-bottom: 40px;
+                        
+                    }
+
+                    &_photo{
+
+                        background-color: #2DC071;
+                        border-radius: 50%;
+                        width: 30px;
+                        padding: 7px;
+                        margin-right: 10px;
+                        
+                    }
+                    &_photos{
+                        background-color: #BDBDBD;
+                        border-radius: 50%;
+                        width: 30px;
+                        padding: 7px;
+                        margin-right: 10px;
+                    }
+                    
+                    
+                }
+            }
+            &_button{
+                width: 200px;
+                color: white;
+                border: none;
+                padding: 10px 50px;
+                border-radius: 5px;
+                background-color:#23A6F0;
+                margin-top: 20px;
+                margin-left: 70px;
+            }
+            &_head{
+
+                margin-bottom: 30px;
+            }
+            &_text{
+                opacity: 0.8;
+
+                margin-bottom: 30px;
+            }
+        }
+
+
+
+        &_right{
+
+            width: 350px;
+            height: 600px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border-radius: 10px;
+          border: 1px solid #23A6F0;
+            &_list{
+                display: flex;
+                align-items: center;
+                margin-left: 3em;
+       
+                
+                &_item{
+                    margin-bottom: 15px;
+                   
+
+                    &_paragraf{
+
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: #23A6F0;
+                        margin-right: 10px;
+                        margin-left: 0.5em;
+                        margin-bottom: 40px;
+
+                    }
+                    &_paragraf1{
+                        font-size: 2rem;
+                        font-weight: bold;
+                       color: #23A6F0; 
+                    }
+                    &_paragraf2{
+                        color: #8EC2F2;
+                        margin-bottom: 40px;
+                        
+                    }
+
+                    &_photo{
+
+                        background-color: #2DC071;
+                        border-radius: 50%;
+                        width: 30px;
+                        padding: 7px;
+                        margin-right: 10px;
+                        
+                    }
+                    &_photos{
+                        background-color: #BDBDBD;
+                        border-radius: 50%;
+                        width: 30px;
+                        padding: 7px;
+                        margin-right: 10px;
+                    }
+                    
+                    
+                }
+            }
+            &_button{
+                width: 200px;
+                color: white;
+                border: none;
+                padding: 10px 50px;
+                border-radius: 5px;
+                background-color: #23A6F0;
+                margin-top: 20px;
+                margin-left: 70px;
+            }
+            &_head{
+
+                margin-bottom: 30px;
+            }
+            &_text{
+                opacity: 0.8;
+
+                margin-bottom: 30px;
+            }
+        }
+
+
+
+    }
+
+
+
+    &_end{
+max-width: 100%;
+height: 200px;
+        &_head{
+text-align: center;
+margin-bottom: 50px;
+        }
+        &_list{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 4em;
+            
+    }
+   }
+}
+
+&__center{
+    max-width: 100%;
+    height: 600px;
+    margin-left: 20em;
+    margin-bottom: 5em;
+    &_div{
+        width: 600px;
+        
+    &_head{
+        text-align: center;
+font-size: 2rem;
+margin-bottom: 15px;
+    }
+    &_paragraf{
+text-align: center;
+opacity: 0.8;
+margin-bottom: 5em;
+    }
+    &_list{
+        display: flex;
+        column-gap: 5em;
+        
+       
+        &_item{
+            margin-bottom: 10px;
+
+           
+            &_text{
+                font-size: 0.8rem;
+                opacity: 0.8;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+}
+
+&__end{
+max-width: 100%;
+height: 270px;
+text-align: center;
+    &_list{
+
+        &_item{
+margin-bottom: 30px;
+            &_head{
+font-size: 2rem;
+            }
+            &_text{
+opacity: 0.8;
+font-size: 0.8;
+
+            }
+            &_link{
+color: white;
+background-color: #23A6F0;
+border-radius: 5px;
+padding: 10px 30px;
+
+            }
+            &_photo{
+                height: 20px;
+               margin-right: 10px;
+
+            }
+        }
+    }
+}
+}
+
+.footer{
+    max-width: 100%;
+    height: 400px;
+
+&__enter{
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 12em 2em 12em;
+
+}
+&__hr{
+max-width: 100%;
+height:10px;
+margin: 0 12em 3em 12em;
+opacity: 0.4;
+}
+
+&_main{
+     max-width: 100%;
+height: 120px;
+display: flex;
+justify-content: space-between;
+
+margin: 0 12em 2em 12em;
+&_list{
+    &_item{
+
+   .form{
+    margin-bottom: 10px;
+   &_enter{
+border: none;
+border-radius: 3px;
+font-size: 0.6rem;
+padding: 10px 15px;
+background-color: rgb(252, 244, 244);
+   }
+   &_exit{
+    color: white;
+    background-color: #28A8F0;
+    font-size: 0.6rem;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+   }
+   }
+    &_span{
+        font-size: 0.6rem;  
+        opacity: 0.7;
+    }
+    &_head{
+        margin-bottom: 15px;
+    }
+    &_link{
+color: black;
+opacity: 0.8;
+font-size: 0.8rem;
+
+    } 
+}
+}
+
+}
+&_end{
+    max-width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    &_list{
+        &_item{
+
+&_span{
+    margin-left: 15em;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+        }
+    }
+}
+
+}
